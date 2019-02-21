@@ -1,7 +1,7 @@
 const expect = chai.expect;
 
 describe('index.js', () => {
-	describe('printBadges()', () => {
+	describe('printBadges(array)', () => {
 		let spy;
 
 		beforeEach(() => {
