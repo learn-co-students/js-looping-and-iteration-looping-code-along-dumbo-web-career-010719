@@ -14,6 +14,9 @@ function writeCards(arr,eventName){
 
  // write a function, countDown, that takes in any positive integer and, starting from that number, counts down to zero using console.log(). So, when written if you were to run
  function countdown(integer){
-
+   let i = countDown
+   while (i >= 0) {
+     console.log(i)
+     i--
    }
  }
